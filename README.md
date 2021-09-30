@@ -33,12 +33,17 @@ Part II
 * For .NET 5 choose No Managed and Integrated.
 * Create new website by right-clicking Sites.
 * Give your site a name, press SELECT and choose the application pool that you created.
+* ![image](https://user-images.githubusercontent.com/71599740/135454499-41154ac6-16de-4856-81eb-eb778468e485.png)
 * On physical path insert: C:/inetpub/wwwroot.
 * In wwwroot directory press Make New Folder and create a folder for your website.
 * In Binding insert the port for your website (for example: 5100) and press OK.
 * Right-click on your website and press Explore.
 * Copy your publish folder (PART I) to the folder you created.
+* ![image](https://user-images.githubusercontent.com/71599740/135454738-c76c7812-f8db-45f4-bcc8-cc9fd6ea833e.png)
 * Your website has been created so refresh it and browse on http://localhost:[your port].
 * There is an ERROR (500.29).
 * Download ASP.NET Core Hosting Bundle and install it on your windows server machine (https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-aspnetcore-5.0.10-windows-* hosting-bundle-installer).
+* ![image](https://user-images.githubusercontent.com/71599740/135454585-ff713bfa-b775-423f-ae9a-4686f7a522c6.png)
 * Refresh your website and press Browse*:[your port](http).
+* ![image](https://user-images.githubusercontent.com/71599740/135454670-65acfc83-1027-4605-aa24-7a7a274294fb.png)
+
