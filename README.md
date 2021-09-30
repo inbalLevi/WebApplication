@@ -7,15 +7,22 @@ Part I
 * In the Additional information window, verify that .NET 5 appears in the top drop-down menu.
 * Right-click on your project and choose Manage NuGet Packages.
 * Search for Newtonsoft.Json and install it for your project.
+* ![image](https://user-images.githubusercontent.com/71599740/135452789-2a2e462a-fe76-4c74-bf71-c1bd0ec9737a.png)
 * Check your .csproj file (Newtonsoft.Json package has been added).
 * Right-click on your solution and choose Restore Nuget Packages.
 * Rebuild your solution.
+* ![image](https://user-images.githubusercontent.com/71599740/135453061-7b7f0a5f-b6e3-466b-88e7-dea3e69db6e3.png)
+
 * Right-click on your project and choose Publish.
 * In publish window choose Folder.
+* ![image](https://user-images.githubusercontent.com/71599740/135453960-aead6599-30c6-4b3c-afb3-913af3bd21a1.png)
 * In Location choose the folder location and then choose Finish.
 * In publish window press the Publish button.
 * Some publishing files were created at [Your project]/bin/Release/net5.0/publish.
+* ![image](https://user-images.githubusercontent.com/71599740/135454037-75d99f91-1520-45bf-81db-bf5a0cec4222.png)
 * Check your project is running.
+* ![image](https://user-images.githubusercontent.com/71599740/135454232-3c58b0df-4fbb-4a08-86af-2fbd2e3fdbb8.png)
+
 
 
 
